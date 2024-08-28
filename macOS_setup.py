@@ -18,7 +18,7 @@ OPTIONS = {
         'CFBundleDisplayName': APP_NAME,
         'CFBundleGetInfoString': 'Mouse can walk',
         'CFBundleIdentifier': 'com.catalyst.mousewalk',
-        'CFBundleVersion': '1.0.1',
+        'CFBundleVersion': '1.0.0',
         'CFBundleShortVersionString': '1.0.0',
         'NSHumanReadableCopyright': u'Copyright © 2024, Catalyst',
         'LSUIElement': True,
