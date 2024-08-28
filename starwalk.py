@@ -1,7 +1,6 @@
 import os
 import time
 
-os.system("clear")
 w, h = os.get_terminal_size()
 x, y = w // 2, h // 2
 x_direction, y_direction = 1, 1
@@ -16,7 +15,6 @@ while True:
         else:
             print(' '*w)
 
-        
     if x == w: x_direction = -1
     elif x == 0: x_direction = 1
 
@@ -25,4 +23,3 @@ while True:
 
     x += x_direction
     y += y_direction        
-
